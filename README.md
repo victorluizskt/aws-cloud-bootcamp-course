@@ -1,1 +1,131 @@
-# aws-cloud-bootcamp-course
+# AWS Cloud Project Bootcamp Readme
+
+## Bootcamp Overview
+
+This repository contains a comprehensive AWS Cloud Project Bootcamp, organized into various weeks and topics. Each section is timestamped for easy navigation.
+
+- [x] 00:00 - Intro
+- [x] 07:10 - Welcome to the FREE AWS Cloud Project Bootcamp
+- [x] 10:05 - Create a GitHub Account
+- [x] 13:46 - Set Up MFA on your GitHub Account
+- [x] 15:01 - Create a Gitpod Account
+- [x] 17:56 - How Do I get the Gitpod Button
+- [x] 21:56 - Setup GitHub Codespaces
+- [x] 23:16 - Create AWS Account
+- [x] 33:08 - Creating Repository from the Github Template
+- [x] 34:54 - Create Lucidchart Account
+- [x] 37:38 - Create Honeycomb.io Account
+- [x] 39:56 - Create Rollbar Account
+- [x] 41:08 - Wk 0 Billing & Architecture
+- [x] 2:40:32 - Wk 0 Generate Credentials, AWS CLI, Budget & Billing Alarm via CLI
+- [x] 4:03:37 - Wk 0 Pricing Basics & Free tier
+- [x] 4:24:35 - AWS Organizations & AWS IAM 
+- [x] 5:26:54 - Wk 0 Homework
+- [x] 5:34:37 - Wk 0 Lucid Charts 
+- [x] 6:15:58 - Homework Grading
+- [x] 6:35:27 - Updating Journal
+- [x] 7:22:27 - Scrubing Github History of Sensitive Data
+- [x] 8:09:29 - Wk 1 App Containerization
+- [x] 10:10:35 - Wk 1 After Stream Commit Code
+- [x] 10:12:25 - Wk 1 Gitpod, Github Codespaces, AWS Cloud9 & Cloudtrail
+- [x] 10:22:33 - Docker Container Security Best Practices 
+- [x] 11:03:46 - Grading
+- [x] 11:10:29 - Wk 1 Create the notification
+- [x] 11:42:42 - Wk 1 DynamoDB & Postgres vs Docker
+- [x] 12:02:00 - Before You Ask For Help
+- [x] 12:28:30 - Wk 2 Distributed Tracing
+- [x] 14:24:51 - Observability vs Monitoring Explained in AWS
+- [x] 14:53:48 - Wk 2 Instrument XRay
+- [x] 15:42:48 - Wk 2 CloudWatch Logs
+- [x] 15:54:14 - Pick the right cloud role
+- [x] 16:47:06 - Wk 2 Rollbar
+- [x] 17:07:40 - Wk 2 Github Codespaces Crash Course
+- [x] 17:56:54 - Wk 2 X-Ray Subsegments Solved
+- [x] 18:27:27 - Wk 2 Honeycomb, Rollbar, AWS X-Ray & AWS Cloudwatch Logs pricing considerations
+- [x] 18:34:02 - Amazon Cognito Security Best Practices
+- [x] 19:07:31 - Wk 3 Decentralized Authenication
+- [x] 21:07:16 - Wk 3 Cognito Custom Pages
+- [x] 21:47:04 - Wk 3 Congito JWT Server side Verify
+- [x] 22:54:49 - Wk 3 Exploring JWTs
+- [x] 23:20:50 - Wk 3 Improving UI
+- [x] 23:57:15 - Securing Amazon RDS Postgres DB
+- [x] 24:16:16 - Wk 4 Relational DBs
+- [x] 26:12:52 - Wk 4 SQL RDS
+- [x] 27:27:52 - Wk 4 Cognito Post Confirmation Lambda
+- [x] 28:16:53 - Wk 4 Creating Activities
+- [x] 30:16:46 - Wk 5 NoSQL & Caching
+- [x] 32:16:40 - Amazon DynamoDB for security & speed
+- [x] 32:41:06 - Wk 5 DynamoDb Utility Scrips
+- [x] 34:29:15 - Wk 5 Implement Conversations with DynamoDB
+- [x] 36:12:13 - Wk 5 DynamoDB Stream
+- [x] 36:55:23 - What hiring managers want from your resume
+- [x] 37:29:16 - Amazon ECS Security Best Practices
+- [x] 37:55:05 - Wk 6-7 ECS Fargate (Pt 1 & 2)
+- [x] 42:27:04 - Wk 6 Deploying Containers
+- [x] 43:11:06 - Wk 6 7 Securing Flask (Pt 1 & 2)
+- [x] 44:27:41 - Wk 6-7 Further Investigation into Werkzeug
+- [x] 44:36:26 - Wk 6-7 Fix Messaging
+- [x] 45:40:17 - Wk 6-7 Implement Refresh Token Cognito
+- [x] 46:16:33 - Wk 7 Fargate Configuring for Container Insights
+- [x] 48:38:59 - Wk 7 CORS, Load Balancing, Domains
+- [x] 49:01:21 - Wk 6-7：Guest Instructor Maish, Fargate Technical Questions
+- [x] 49:41:58 - Securely Host a Website on AWS with a Custom Domain
+- [x] 50:03:19 - Implementing Timezones for ISO 8601
+- [x] 50:25:19 - Wk 8 Serverless Image Processing
+- [ ] Wk 8 Severless Image Process CDK
+- [ ] Wk 8 Serving Avatars via CloudFront
+- [ ] Wk 8 Implement Users Profile Page
+- [ ] Wk 8 Implement Migrations Backend Endpoint & Profile Form
+- [ ] Wk 8 Implement Avatar Uploading Pt 1
+- [ ] Wk 8 Fix CORS for API Gateway
+- [ ] Wk 8 Fix CORS Final AWS Lambda Layers
+- [ ] Wk 8 Render Avatar from CloudFront
+- [x] 62:33:09 - They all landed jobs in cloud
+- [x] 63:16:11 - Wk 9 CI⧸CD
+- [x] 65:03:04 - Wk 9 Fix CodeBuild Issues
+- [x] 65:15:22 - Wk 9 CodePipeline
+- [x] 65:36:38 - CI CD Pipeline SECURITY EXPLAINED FOR AWS
+- [x] 65:49:56 - Wk 10 CloudFormation
+- [ ] Wk 10-11 CFN For Networking Layer
+- [ ] Wk 10-11 CFN Diagramming the Network Layer
+- [ ] Wk 10 11 CFN Cluster Layer
+- [ ] Wk 10-11 CFN Toml Pt 1
+- [ ] Wk 10 11 CFN Toml Pt 2
+- [ ] Wk 10-11 CFN Cluster Layer Finish
+- [ ] Wk 10-11 CFN Diagram Cluster
+- [ ] Wk 10-11 CFN Svc Layer
+- [ ] 74:31:42 AWS CloudFormation Security Best Practices
+- [ ] 74:53:06 CFN ECS Fargate Svc Debugging
+- [ ] 75:44:26 CFN ECS Faragate Svc Debugging Further
+- [ ] 75:54:30 CFN RDS
+- [ ] 76:10:10 CFN RDS Finish
+- [ ] 76:53:08 CFN Svc Attempt Again
+- [ ] 77:04:57 CFN Svc Fixed
+- [ ] 77:28:56 CFN Svc Confirmed Fixed
+- [ ] 77:29:54 CFN Diagramming Svc & RDS
+- [ ] 78:14:45 SAM CFN for Dynamodb DynamoDB Streams Lambda
+- [ ] 80:26:53 SAM CFN Fix SAM Lambda Code Artifact
+- [ ] 80:31:36 Diagramming DynamoDB
+- [ ] 80:41:20 CFN CICD Pt 1 & 2
+- [ ] 81:36:34 CFN Diagramming CICD
+- [ ] 81:57:17 CFN Static Website Hosting Frontend
+- [ ] 82:53:11 CFN Diagramming Static Frontend
+- [ ] 83:07:59 Final week
+- [ ] Wk X Sync tool for static website hosting
+- [ ] Wk X Reconnect DB & Post Confirmation Lambda
+- [ ] Wk X CORS for Svc
+- [ ] Wk X CICD Pipeline & Create Activity
+- [ ] Wk X Refactor JWT to a decorator
+- [ ] Wk X Refactor AppPy
+- [ ] Wk X Refactor Flask Routes
+- [ ] Wk X Replies Work In Progress
+- [ ] Wk X Refactor Error Handling & Fetch Requests
+- [ ] Wk X Activity Show Page
+- [ ] Wk X Cleanup
+- [ ] 097:51:33 Project Validation Tool Building
+- [ ] 101:07:04 CPBVT Fighting with ChatGPT
+- [ ] 101:56:22 CPBVT Implementing Many API Commands
+- [ ] 104:07:16 CBVT Validators
+- [ ] 106:29:39 CBVT Rules
+- [ ] 106:56:04 Rollbar Fix for Updated Flask
+- [ ] 107:32:39 Final Submissions Instructions
